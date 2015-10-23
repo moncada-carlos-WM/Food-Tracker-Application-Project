@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Food Tracker</title>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
 </head>
 <body>
-<header>Food Tracker</header>
+<header><h1>Food Tracker Device</h1></header>
+<form>Name:<input id="name"/>
+      Description<input id="desc"/>
+    Date<input id="date"/>
+    Shelf life=<input id="life"/>
+    Expiration <input id="exp"/>
+    <input type="button" value="Submit" onclick="update()"/>
+</form>
+      <table id="table" border="1" style="width:100%">
+        <tr>
+          <td>name</td>
+          <td>Description</td>
+          <td>Date</td>
+          <td>Shelf Line</td>
+          <td>Expiration</td>
+          </tr>
+          </table>
+<script type="text/javascript" src="scripts.js"></script>
+
+
+
 
 
 
